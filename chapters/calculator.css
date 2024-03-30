@@ -25,8 +25,8 @@ body{
 }
 .tableContainer{
     width: 100%;
-    background: linear-gradient(to left bottom ,rgb(223, 179, 186), rgb(247, 79, 247) );
 background-image: url('paper.gif');
+padding: 10px 0px;
 }
 .table{
 width: 100%;
@@ -133,9 +133,6 @@ padding: 5px;
 @media only screen and (max-width:510px) {
     #background{
         display: none;
-    }
-    .container{
-        display:block;
     }
 
     .tableContainer{
