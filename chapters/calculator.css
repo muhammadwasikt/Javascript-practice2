@@ -42,7 +42,6 @@ padding: 5px;
 .screen2{
     width: 100%;
     padding: 10px 10px;
-    padding-bottom: 30px;
     text-align: right;
     border: none;
     outline: none;
@@ -51,10 +50,10 @@ padding: 5px;
 .screen3{
     width: 100%;
     padding: 10px 10px;
+    padding-bottom: 30px;
     text-align: right;
     border: none;
     outline: none;
-    margin-bottom: 10px;
     background-color: rgb(218, 220, 221);
 }
 
