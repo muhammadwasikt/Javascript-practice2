@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <img id="background" src="./tumblr_nqn5a0IY4P1qilpmuo1_400.gif" alt="">
+    <div class="container">
+        <div class="tableContainer">
+<div class="table">
+    <td><input type="text" id="result1" class="screen1" disabled></td>
+        <td><input type="text" id="result2" class="screen2" disabled></td>
+        
+        <td><input type="text" id="result3" class="screen3" disabled ></td>
+<div class="tableButton">
+        <td>
+            <input type="button" id="button" value="%" onclick="display('%')" class="operator">
+        </td>
+        <td>
+            <input type="button" id="button" value="CE" onclick="clearScreen1()" class="operater">
+        </td>
+        <td>
+            <input type="button" id="button" value="C" onclick="clearScreen()" class="operater">
+        </td>
+    <td>
+        <input type="button" id="button2" value="÷" onclick="display('/')" class="operater">
+    </td>
+   
+    
+
+        <td>
+            <input type="button" id="button" value="7" onclick="display('7')" class="number">
+        </td>
+        <td>
+            <input type="button" id="button" value="8" onclick="display('8')" class="number">
+
+        </td>
+        <td>
+            <input type="button" id="button" value="9" onclick="display('9')" class="number">
+
+        </td>
+        <td>
+            <input type="button" id="button2" value="×" onclick="display('*')" class="operater">
+        </td>
+    
+
+        <td>
+            <input type="button" id="button" value="4" onclick="display('4')" class="number">
+        </td>
+        <td>
+            <input type="button" id="button" value="5" onclick="display('5')" class="number">
+
+        </td>
+        <td>
+            <input type="button" id="button" value="6" onclick="display('6')" class="number">
+
+        </td>
+        <td>
+            <input type="button" id="button2" value="–" onclick="display('-')" class="operater"> 
+        </td>
+    
+
+        <td>
+            <input type="button" id="button" value="1" onclick="display('1')" class="number">
+        </td>
+        <td>
+            <input type="button" id="button" value="2" onclick="display('2')" class="number">
+
+        </td>
+        <td>
+            <input type="button" id="button" value="3" onclick="display('3')" class="number">
+
+        </td>
+        <td>
+            <input type="button" id="button2" value="+" onclick="display('+')" class="operater">
+        </td>
+    
+
+        <td>
+            <input type="button" id="button" value="+/-" onclick="display('')" class="number">
+        </td>
+        <td>
+            <input type="button" id="button" value="0" onclick="display('0')" class="number">
+
+        </td>
+        <td>
+            <input type="button" id="button" value="." onclick="display('.')" class="number">
+
+        </td>
+        <td>
+            <input type="button" id="button1" value="=" onclick="solve1()" class="egual">
+           
+        </td>
+    </div>
+</div>
+</div>
+    </div>
+<script src="calculator.js"></script>
+</body>
+</html>
+
